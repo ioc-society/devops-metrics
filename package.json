@@ -1,0 +1,37 @@
+{
+  "name": "devops-metrics",
+  "version": "0.0.1",
+  "description": "Devops Metrics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/@digitalroute/cz-conventional-changelog-for-jira",
+      "jiraPrepend": "[:>",
+      "jiraAppend": "<:]"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ioc-society/devops-metrics.git"
+  },
+  "keywords": [
+    "devops",
+    "metrics",
+    "deployment-frequency",
+    "medium-lead-time-for-changes",
+    "change-failure-rate"
+  ],
+  "author": "FelipeBarrosCruz <felipe.barros.pt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ioc-society/devops-metrics/issues"
+  },
+  "homepage": "https://github.com/ioc-society/devops-metrics#readme",
+  "devDependencies": {
+    "@digitalroute/cz-conventional-changelog-for-jira": "^7.0.0",
+    "commitizen": "^4.2.4"
+  }
+}
